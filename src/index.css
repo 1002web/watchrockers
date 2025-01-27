@@ -1,0 +1,79 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+}
+
+#root, #root .navbar-light {
+  background-color: #1a1818 !important;
+}
+
+.navbar-light .container .navbar-brand {
+  color: #e0d8d8 !important;
+}
+
+.navbar-toggler-icon {
+filter: invert(1);
+}
+
+.navbar-toggler:focus {
+border: 0px white solid
+}
+
+.img-head {
+  width: 100%;
+}
+
+.carousel-item {
+  transition: transform 2.6s ease-in-out;
+}
+
+.carousel-fade .active.carousel-item-start,
+.carousel-fade .active.carousel-item-end {
+  transition: opacity 0s 2.6s;
+}
+
+#root .container {
+  max-width: 1500px;
+}
+.nav-link {
+  color: #e0d8d8 !important;
+  margin-inline: 15px;
+  -webkit-transition: all .5s   ease-in-out;
+  -moz-transition: all .5s  ease-in-out;
+  -o-transition: all .5s  ease-in-out;
+  transition: all .5s ease-in-out;
+  opacity: 0.8;
+}
+
+.nav-link:hover {
+  opacity: 1;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+ color: white !important
+}
+
+h1 {
+  font-weight: 700 !important;
+}

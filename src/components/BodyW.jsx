@@ -4,7 +4,7 @@ import FirstBlock from './FirstBlock';
 const BodyW = () => {
     return (
         <>
-        <div style={{maxWidth: '1500px', margin: 'auto', paddingTop: '20px', minHeight: '1500px'}}>
+        <div style={{maxWidth: '1500px', margin: 'auto', paddingTop: '20px', minHeight: '50vh'}}>
         <FirstBlock />
         </div>
         </>
